@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Handler().postDelayed({
-            
+
             val inten = Intent(this@MainActivity, HomeActivity::class.java)
             startActivity(inten)
             finish()
